@@ -6,9 +6,9 @@ package stage2 // second stage of the project, Sold.
 
 fun main() {
     println("Enter the number of rows:")
-    val rows = readLine()!!.toInt()
+    val rows = readln().toInt()
     println("Enter the number of seats in each row:")
-    val seats = readLine()!!.toInt()
+    val seats = readln().toInt()
     when (val totalSeats = rows * seats) {
         in 0..60 -> {
             println("Total income:")
