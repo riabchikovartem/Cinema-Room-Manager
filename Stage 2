@@ -1,0 +1,26 @@
+/*
+The project is made by Artem Riabchikov, OpenAI based on hyperskill.org project "Cinema Room Manager" using Kotlin.
+To make this project, I used open github project of github user marckoch.
+ */
+package stage2 // second stage of the project, Sold.
+
+fun main() {
+    println("Enter the number of rows:")
+    val rows = readLine()!!.toInt()
+    println("Enter the number of seats in each row:")
+    val seats = readLine()!!.toInt()
+    when (val totalSeats = rows * seats) {
+        in 0..60 -> {
+            println("Total income:")
+            println("$${totalSeats * 10}")
+        }
+        else -> {
+            println("Total income:")
+            if (rows % 2 != 0) {
+                println("$${(rows / 2) * seats * 10 + (rows / 2 + 1) * seats * 8}")
+            } else {
+                println("$${(rows / 2) * seats * 10 + (rows / 2) * seats * 8}")
+            }
+        }
+    }
+}
