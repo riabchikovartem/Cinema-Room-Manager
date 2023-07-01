@@ -1,4 +1,4 @@
-The project is made by Artem Riabchikov, OpenAI based on hyperskill.org project "Cinema Room Manager" using Kotlin.
+The project is made by Artem Riabchikov & OpenAI based on hyperskill.org project "Cinema Room Manager" using Kotlin.
 To make this project, I used open github project of github user marckoch.
 Description from hyperskill: 
 Cinema has been a part of the entertainment industry for a long time: a good movie is a way to escape reality and live through a variety of emotions.
